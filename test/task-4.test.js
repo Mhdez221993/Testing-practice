@@ -9,4 +9,8 @@ describe('capitalize', () => {
         expect(() => capitalize()).toThrow()
         expect(() => capitalize()).toThrow("")
     })
+
+    test('if number', ()=> {
+        expect(() => capitalize(4)).toThrow('string.charAt is not a function')
+    })
 })
