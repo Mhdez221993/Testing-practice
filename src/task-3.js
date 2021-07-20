@@ -17,7 +17,4 @@ class Calculator {
     }
 }
 
-let cal = new Calculator()
-console.log(cal.add());
-
 module.exports = Calculator
